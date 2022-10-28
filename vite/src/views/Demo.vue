@@ -18,6 +18,9 @@
         setup(props,ctx){
             console.log(props,ctx)
         },
+        components:{
+            DemoTest
+        },
         mounted(){
             console.log(this)
              this.$http({
